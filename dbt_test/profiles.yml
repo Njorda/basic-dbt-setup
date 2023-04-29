@@ -1,0 +1,13 @@
+test_3:
+  outputs:
+    dev:
+      dataset: dbt_test_2
+      job_execution_timeout_seconds: 30
+      job_retries: 1
+      location: EU
+      method: oauth
+      priority: interactive
+      project: johan-kubeflow
+      threads: 1
+      type: bigquery
+  target: dev
